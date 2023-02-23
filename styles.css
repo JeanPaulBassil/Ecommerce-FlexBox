@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+}
+html {
+    width: auto;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    width: 100vw;
+}
+.icon > img{
+    height: 60px;
+    margin-left: 20px;
+    /* width: 40px; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: white;
+    height: 80px;
+}
+
+
+a {
+    font-weight: 500;
+}
+
+.nav ul {
+padding: 0;
+}
+
+.nav li {
+position: relative;
+display: inline-block;
+padding: 10px;
+}
+
+.nav a {
+display: block;
+text-decoration: none;
+color: #000;
+width: 8rem;
+}
+
+.nav li ul {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #fff;
+}
+
+.nav li:hover > ul {
+display: block;
+}
+
+.nav li ul a:hover {
+color: red
+}
+
+
+.preview > img{
+    width: 150px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card > .info > h3 {
+    margin: 0px;
+}
+
+.card {
+    /* display: inline-block; */
+    background-color: #ff385c;
+    margin: 0px 10px;
+    width: 200px;
+    height: 260px;
+    border-radius: 10px;
+    
+}
+
+.category > .title > h2{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.category {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 340px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.category::-webkit-scrollbar{
+    display: none;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+.preview {
+    margin-top: 5px
+}
+
+.info > h3{
+    margin: 5px;
+    color: white
+}
+
+.cards {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding-left: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray
+}
+
+
+
